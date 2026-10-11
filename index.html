@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EPL Hub · 2026/27 Premier League News &amp; Stats</title>
+  <meta name="description" content="Premier League 2026/27 news hub — live standings, matchweek results, fixtures and club profiles.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">PL</span>
+        <span>EPL HUB<small>2026/27 SEASON</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="standings.html">Standings</a>
+        <a href="fixtures.html">Fixtures</a>
+        <a href="teams.html">Teams</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1>The Premier League,<br><span class="hl">unpacked.</span></h1>
+        <p class="sub">Your English-language hub for the 2026/27 season — verified standings, matchweek reports, fixtures and every club in the top flight.</p>
+        <div class="hero-actions">
+          <a href="standings.html" class="btn btn-primary">View Full Table</a>
+          <a href="fixtures.html" class="btn btn-ghost">Matchweek 7 Fixtures</a>
+        </div>
+        <div class="hero-meta">
+          <div><b>20</b><br>Clubs</div>
+          <div><b>380</b><br>Matches</div>
+          <div><b>18</b><br>Pts · Leaders</div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h3><span class="dot"></span>Live Table · Top 6</h3>
+        <table class="mini-table">
+          <tbody id="standings-top"></tbody>
+        </table>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+
+    <section>
+      <h2 class="sec-title">Latest News</h2>
+      <div class="news-grid" id="news-list"></div>
+    </section>
+
+    <section>
+      <h2 class="sec-title">Table at a Glance</h2>
+      <div class="card">
+        <div class="bars" id="points-bars"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="sec-title">Matchweek 6 Results</h2>
+      <div id="results-md6"></div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <strong>EPL HUB</strong> — an unofficial fan hub for the Premier League.
+    <div class="data-note">Data as of October 11, 2026 (Matchweek 6). Compiled from public sources: premierleague.com, nowscore.com, dongqiudi.com. Not affiliated with the Premier League.</div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
