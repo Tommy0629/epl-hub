@@ -20,6 +20,7 @@
         <a href="standings.html">Standings</a>
         <a href="fixtures.html">Fixtures</a>
         <a href="teams.html">Teams</a>
+        <a href="lab.html">Lab</a>
       </div>
     </div>
   </nav>
@@ -28,20 +29,21 @@
     <div class="hero-inner">
       <div>
         <h1>The Premier League,<br><span class="hl">unpacked.</span></h1>
-        <p class="sub">Your English-language hub for the 2026/27 season — verified standings, matchweek reports, fixtures and every club in the top flight.</p>
+        <p class="sub">Your English-language hub for the 2026/27 season — live standings, reports, fixtures, projections and every club in the top flight.</p>
         <div class="hero-actions">
           <a href="standings.html" class="btn btn-primary">View Full Table</a>
-          <a href="fixtures.html" class="btn btn-ghost">Matchweek 7 Fixtures</a>
+          <a href="lab.html" class="btn btn-ghost">Open the Lab</a>
         </div>
         <div class="hero-meta">
           <div><b>20</b><br>Clubs</div>
           <div><b>380</b><br>Matches</div>
-          <div><b>18</b><br>Pts · Leaders</div>
+          <div><b id="hero-leaders">—</b><br>Pts · Leaders</div>
         </div>
       </div>
       <div class="hero-card">
         <h3><span class="dot"></span>Live Table · Top 6</h3>
         <table class="mini-table">
+          <thead id="standings-top-head"></thead>
           <tbody id="standings-top"></tbody>
         </table>
       </div>
@@ -63,7 +65,7 @@
     </section>
 
     <section>
-      <h2 class="sec-title">Matchweek 6 Results</h2>
+      <h2 class="sec-title">Latest Results</h2>
       <div id="results-md6"></div>
     </section>
 
@@ -71,7 +73,7 @@
 
   <footer class="footer">
     <strong>EPL HUB</strong> — an unofficial fan hub for the Premier League.
-    <div class="data-note">Data as of October 11, 2026 (Matchweek 6). Compiled from public sources: premierleague.com, nowscore.com, dongqiudi.com. Not affiliated with the Premier League.</div>
+    <div class="data-note">Live data from the Premier League public API, refreshed automatically every 6 hours. Last update: <b data-asof>—</b>. Not affiliated with the Premier League.</div>
   </footer>
 
   <script src="js/data.js"></script>
