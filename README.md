@@ -1,19 +1,19 @@
-# EPL HUB · 2026/27
+# EPL Hub · 2026/27
 
-An unofficial English-language fan hub for the Premier League 2026/27 season.
+An unofficial English-language Premier League fan hub. Live data, auto-refreshed every 6 hours from the Premier League's public API.
 
 ## Pages
-- **Home** — latest news (Matchweek 6 reports), live top-6 table, points chart, results
-- **Standings** — full 20-club table with form guide and UCL / UEL / relegation zones
-- **Fixtures** — Matchweek 6 results + Matchweek 7 schedule
-- **Teams** — all 20 clubs with current records
+- **Home** — live Top 6 table, news, latest results
+- **Standings** — full 20-club table with form guide
+- **Fixtures** — latest results + upcoming fixtures with live kick-off countdown
+- **Teams** — all 20 clubs with records and stadiums
+- **Lab** — fan tools: Golden Boot race, end-of-season projection, schedule difficulty, head-to-head comparator
 
-## Stack
-- Pure static HTML + CSS + vanilla JS (no build step, no external CDN dependencies)
-- Data-driven: all content rendered from `js/data.js`
+## Live data pipeline
+`.github/workflows/refresh.yml` runs `scripts/refresh.py` every 6 hours, fetches standings/results/fixtures/scorers from footballapi.pulselive.com, commits `js/data.js` back to `main`, which triggers automatic redeploys on both Vercel and Cloudflare Pages.
 
-## Data
-Data as of October 11, 2026 (Matchweek 6). Sources: premierleague.com, nowscore.com, dongqiudi.com.
+## Deployed on
+- Vercel: https://epl-hub-site.vercel.app
+- Cloudflare Pages: https://epl-hub.pages.dev
 
-## Deploy
-Static site — deployable on Vercel (`vercel.app`) or Cloudflare Pages (`pages.dev`).
+Not affiliated with the Premier League.
