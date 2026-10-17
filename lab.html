@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Lab · EPL Hub 2026/27</title>
+  <meta name="description" content="Fan tools the official site doesn't have: end-of-season projection, schedule difficulty, head-to-head lab and Golden Boot race.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">PL</span>
+        <span>EPL HUB<small>2026/27 SEASON</small></span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="standings.html">Standings</a>
+        <a href="fixtures.html">Fixtures</a>
+        <a href="teams.html">Teams</a>
+        <a href="lab.html" class="active">Lab</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <div class="page-head">
+      <h1>The Lab <small style="font-size:.5em;color:#f5a623">fan tools the official site doesn't have</small></h1>
+      <p>2026/27 season · data refreshed <b data-asof>—</b></p>
+    </div>
+
+    <h2 class="sec-title">Golden Boot Race</h2>
+    <div class="card">
+      <table class="standings lab-table">
+        <thead><tr><th>#</th><th>Player</th><th>Club</th><th>Goals</th></tr></thead>
+        <tbody id="scorers-body"></tbody>
+      </table>
+    </div>
+
+    <h2 class="sec-title">Season Projection · where the table ends at 38 games</h2>
+    <p class="sec-note">Simple model: points-per-game so far × 38. ▲ = projected rise vs current rank. Just for fun — form swings hard.</p>
+    <div class="card">
+      <div class="table-scroll">
+        <table class="standings lab-table">
+          <thead><tr><th>#</th><th>Club</th><th>Now</th><th>PPG</th><th>Projected pts</th><th>Trend</th></tr></thead>
+          <tbody id="projection-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <h2 class="sec-title">Upcoming Schedule Difficulty · next 5 opponents' average points</h2>
+    <p class="sec-note">Hard run = next five opponents average 14+ pts; comfortable = under 10.</p>
+    <div class="card"><div id="difficulty"></div></div>
+
+    <h2 class="sec-title">Head-to-Head Lab · compare any two clubs</h2>
+    <div class="card">
+      <div class="h2h-pickers">
+        <select id="h2h-a"></select>
+        <select id="h2h-b"></select>
+      </div>
+      <div id="h2h-out" class="h2h-out"></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <strong>EPL HUB</strong> — an unofficial fan hub for the Premier League.
+    <div class="data-note">Live data pulled from the Premier League public API every 6 hours. Projection and difficulty models are unofficial estimates. Not affiliated with the Premier League.</div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
