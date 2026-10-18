@@ -1,3 +1,877 @@
-/* EPL HUB live data · auto-generated · source: footballapi.pulselive.com · 2026-10-18 */
-const DATA={"season":"2026/27","asOf":"October 18, 2026","standings":[{"rank":1,"team":"Manchester City","short":"MCI","played":7,"win":7,"draw":0,"loss":0,"gf":19,"ga":7,"gd":12,"pts":21,"homeW":4,"homeD":0,"homeL":0,"awayW":3,"awayD":0,"awayL":0,"stadium":"Etihad Stadium","city":"Manchester","form":"WWWWWW"},{"rank":2,"team":"Arsenal","short":"ARS","played":6,"win":5,"draw":0,"loss":1,"gf":10,"ga":5,"gd":5,"pts":15,"homeW":3,"homeD":0,"homeL":0,"awayW":2,"awayD":0,"awayL":1,"stadium":"Emirates Stadium","city":"London","form":"WWWWLW"},{"rank":3,"team":"Brighton & Hove Albion","short":"BHA","played":6,"win":4,"draw":1,"loss":1,"gf":18,"ga":5,"gd":13,"pts":13,"homeW":2,"homeD":1,"homeL":0,"awayW":2,"awayD":0,"awayL":1,"stadium":"American Express Stadium","city":"Falmer","form":"WLDWWW"},{"rank":4,"team":"Chelsea","short":"CHE","played":7,"win":4,"draw":1,"loss":2,"gf":17,"ga":13,"gd":4,"pts":13,"homeW":2,"homeD":1,"homeL":0,"awayW":2,"awayD":0,"awayL":2,"stadium":"Stamford Bridge","city":"London","form":"WLDLWW"},{"rank":5,"team":"Liverpool","short":"LIV","played":7,"win":3,"draw":3,"loss":1,"gf":9,"ga":8,"gd":1,"pts":12,"homeW":0,"homeD":2,"homeL":1,"awayW":3,"awayD":1,"awayL":0,"stadium":"Anfield","city":"Liverpool","form":"DWDWLW"},{"rank":6,"team":"Brentford","short":"BRE","played":7,"win":2,"draw":4,"loss":1,"gf":13,"ga":8,"gd":5,"pts":10,"homeW":2,"homeD":1,"homeL":1,"awayW":0,"awayD":3,"awayL":0,"stadium":"Gtech Community Stadium","city":"Brentford","form":"DDDWDL"},{"rank":7,"team":"Everton","short":"EVE","played":7,"win":2,"draw":4,"loss":1,"gf":8,"ga":7,"gd":1,"pts":10,"homeW":2,"homeD":1,"homeL":1,"awayW":0,"awayD":3,"awayL":0,"stadium":"Hill Dickinson Stadium","city":"Liverpool","form":"DDDWDL"},{"rank":8,"team":"Leeds United","short":"LEE","played":6,"win":2,"draw":3,"loss":1,"gf":8,"ga":5,"gd":3,"pts":9,"homeW":1,"homeD":2,"homeL":0,"awayW":1,"awayD":1,"awayL":1,"stadium":"Elland Road","city":"Leeds","form":"WDDWDL"},{"rank":9,"team":"Hull City","short":"HUL","played":7,"win":2,"draw":3,"loss":2,"gf":8,"ga":7,"gd":1,"pts":9,"homeW":1,"homeD":2,"homeL":0,"awayW":1,"awayD":1,"awayL":2,"stadium":"The MKM Stadium","city":"Hull","form":"WDDLDL"},{"rank":10,"team":"Ipswich Town","short":"IPS","played":7,"win":3,"draw":0,"loss":4,"gf":11,"ga":15,"gd":-4,"pts":9,"homeW":2,"homeD":0,"homeL":1,"awayW":1,"awayD":0,"awayL":3,"stadium":"Portman Road","city":"Ipswich","form":"LLWLWL"},{"rank":11,"team":"Newcastle United","short":"NEW","played":7,"win":2,"draw":2,"loss":3,"gf":10,"ga":14,"gd":-4,"pts":8,"homeW":1,"homeD":2,"homeL":1,"awayW":1,"awayD":0,"awayL":2,"stadium":"St. James' Park","city":"Newcastle","form":"WDLWLL"},{"rank":12,"team":"Aston Villa","short":"AVL","played":7,"win":2,"draw":2,"loss":3,"gf":7,"ga":11,"gd":-4,"pts":8,"homeW":0,"homeD":1,"homeL":2,"awayW":2,"awayD":1,"awayL":1,"stadium":"Villa Park","city":"Birmingham","form":"LDLWDW"},{"rank":13,"team":"Crystal Palace","short":"CRY","played":6,"win":2,"draw":1,"loss":3,"gf":9,"ga":12,"gd":-3,"pts":7,"homeW":1,"homeD":0,"homeL":2,"awayW":1,"awayD":1,"awayL":1,"stadium":"Selhurst Park","city":"London","form":"LLWLDW"},{"rank":14,"team":"Manchester United","short":"MUN","played":6,"win":1,"draw":3,"loss":2,"gf":9,"ga":9,"gd":0,"pts":6,"homeW":1,"homeD":1,"homeL":1,"awayW":0,"awayD":2,"awayL":1,"stadium":"Old Trafford","city":"Manchester","form":"LWDLDD"},{"rank":15,"team":"Coventry City","short":"COV","played":6,"win":2,"draw":0,"loss":4,"gf":5,"ga":11,"gd":-6,"pts":6,"homeW":1,"homeD":0,"homeL":2,"awayW":1,"awayD":0,"awayL":2,"stadium":"Coventry Building Society Arena","city":"Coventry","form":"LLLLWW"},{"rank":16,"team":"Fulham","short":"FUL","played":7,"win":1,"draw":2,"loss":4,"gf":7,"ga":10,"gd":-3,"pts":5,"homeW":1,"homeD":1,"homeL":2,"awayW":0,"awayD":1,"awayL":2,"stadium":"Craven Cottage","city":"London","form":"LLDDLW"},{"rank":17,"team":"Nottingham Forest","short":"NFO","played":6,"win":1,"draw":2,"loss":3,"gf":5,"ga":8,"gd":-3,"pts":5,"homeW":0,"homeD":1,"homeL":2,"awayW":1,"awayD":1,"awayL":1,"stadium":"The City Ground","city":"Nottingham","form":"LDDWLL"},{"rank":18,"team":"Sunderland","short":"SUN","played":6,"win":1,"draw":1,"loss":4,"gf":6,"ga":12,"gd":-6,"pts":4,"homeW":1,"homeD":0,"homeL":2,"awayW":0,"awayD":1,"awayL":2,"stadium":"Stadium of Light","city":"Sunderland","form":"LWDLLL"},{"rank":19,"team":"Bournemouth","short":"BOU","played":6,"win":0,"draw":3,"loss":3,"gf":7,"ga":13,"gd":-6,"pts":3,"homeW":0,"homeD":2,"homeL":1,"awayW":0,"awayD":1,"awayL":2,"stadium":"Vitality Stadium","city":"Bournemouth","form":"LDDDLL"},{"rank":20,"team":"Tottenham Hotspur","short":"TOT","played":6,"win":0,"draw":3,"loss":3,"gf":3,"ga":9,"gd":-6,"pts":3,"homeW":0,"homeD":1,"homeL":2,"awayW":0,"awayD":2,"awayL":1,"stadium":"Tottenham Hotspur Stadium","city":"London","form":"LLDDLD"}],"results":[{"gw":6,"date":"Sat 10 Oct 2026, 17:30 BST","kickoff":1791649800000,"home":"Manchester United","away":"Tottenham Hotspur","hg":1,"ag":1},{"gw":6,"date":"Sun 11 Oct 2026, 14:00 BST","kickoff":1791723600000,"home":"Crystal Palace","away":"Nottingham Forest","hg":3,"ag":1},{"gw":6,"date":"Sun 11 Oct 2026, 14:00 BST","kickoff":1791723600000,"home":"Hull City","away":"Everton","hg":2,"ag":2},{"gw":6,"date":"Sun 11 Oct 2026, 16:30 BST","kickoff":1791732600000,"home":"Liverpool","away":"Manchester City","hg":0,"ag":3},{"gw":6,"date":"Mon 12 Oct 2026, 20:00 BST","kickoff":1791831600000,"home":"Coventry City","away":"Newcastle United","hg":4,"ag":1},{"gw":7,"date":"Sat 17 Oct 2026, 12:30 BST","kickoff":1792236600000,"home":"Everton","away":"Chelsea","hg":0,"ag":2},{"gw":7,"date":"Sat 17 Oct 2026, 15:00 BST","kickoff":1792245600000,"home":"Brentford","away":"Liverpool","hg":1,"ag":2},{"gw":7,"date":"Sat 17 Oct 2026, 15:00 BST","kickoff":1792245600000,"home":"Fulham","away":"Hull City","hg":1,"ag":0},{"gw":7,"date":"Sat 17 Oct 2026, 15:00 BST","kickoff":1792245600000,"home":"Manchester City","away":"Ipswich Town","hg":3,"ag":2},{"gw":7,"date":"Sat 17 Oct 2026, 17:30 BST","kickoff":1792254600000,"home":"Newcastle United","away":"Aston Villa","hg":0,"ag":1}],"upcoming":[{"gw":7,"date":"Sun 18 Oct 2026, 14:00 BST","kickoff":1792328400000,"home":"Bournemouth","away":"Sunderland"},{"gw":7,"date":"Sun 18 Oct 2026, 14:00 BST","kickoff":1792328400000,"home":"Brighton & Hove Albion","away":"Crystal Palace"},{"gw":7,"date":"Sun 18 Oct 2026, 14:00 BST","kickoff":1792328400000,"home":"Leeds United","away":"Manchester United"},{"gw":7,"date":"Sun 18 Oct 2026, 16:30 BST","kickoff":1792337400000,"home":"Nottingham Forest","away":"Arsenal"},{"gw":7,"date":"Mon 19 Oct 2026, 20:00 BST","kickoff":1792436400000,"home":"Tottenham Hotspur","away":"Coventry City"},{"gw":8,"date":"Fri 23 Oct 2026, 20:00 BST","kickoff":1792782000000,"home":"Ipswich Town","away":"Nottingham Forest"},{"gw":8,"date":"Sat 24 Oct 2026, 12:30 BST","kickoff":1792841400000,"home":"Aston Villa","away":"Manchester City"},{"gw":8,"date":"Sat 24 Oct 2026, 15:00 BST","kickoff":1792850400000,"home":"Arsenal","away":"Everton"},{"gw":8,"date":"Sat 24 Oct 2026, 15:00 BST","kickoff":1792850400000,"home":"Coventry City","away":"Fulham"},{"gw":8,"date":"Sat 24 Oct 2026, 17:30 BST","kickoff":1792859400000,"home":"Chelsea","away":"Tottenham Hotspur"},{"gw":8,"date":"Sun 25 Oct 2026, 14:00 GMT","kickoff":1792936800000,"home":"Crystal Palace","away":"Newcastle United"},{"gw":8,"date":"Sun 25 Oct 2026, 14:00 GMT","kickoff":1792936800000,"home":"Hull City","away":"Brentford"},{"gw":8,"date":"Sun 25 Oct 2026, 14:00 GMT","kickoff":1792936800000,"home":"Liverpool","away":"Brighton & Hove Albion"},{"gw":8,"date":"Sun 25 Oct 2026, 14:00 GMT","kickoff":1792936800000,"home":"Manchester United","away":"Bournemouth"},{"gw":8,"date":"Sun 25 Oct 2026, 16:30 GMT","kickoff":1792945800000,"home":"Sunderland","away":"Leeds United"},{"gw":9,"date":"Sat 31 Oct 2026, 12:30 GMT","kickoff":1793449800000,"home":"Chelsea","away":"Manchester United"},{"gw":9,"date":"Sat 31 Oct 2026, 15:00 GMT","kickoff":1793458800000,"home":"Bournemouth","away":"Leeds United"},{"gw":9,"date":"Sat 31 Oct 2026, 15:00 GMT","kickoff":1793458800000,"home":"Brentford","away":"Nottingham Forest"},{"gw":9,"date":"Sat 31 Oct 2026, 15:00 GMT","kickoff":1793458800000,"home":"Coventry City","away":"Sunderland"},{"gw":9,"date":"Sat 31 Oct 2026, 15:00 GMT","kickoff":1793458800000,"home":"Hull City","away":"Ipswich Town"}],"scorers":[{"name":"Erling Haaland","team":"Manchester City","short":"MCI","goals":8},{"name":"Alexander Isak","team":"Liverpool","short":"LIV","goals":5},{"name":"João Pedro","team":"Chelsea","short":"CHE","goals":5},{"name":"Rayan Cherki","team":"Manchester City","short":"MCI","goals":4},{"name":"Morgan Rogers","team":"Chelsea","short":"CHE","goals":4},{"name":"Thierno Barry","team":"Everton","short":"EVE","goals":3},{"name":"Mohamed Belloumi","team":"Hull City","short":"HUL","goals":3},{"name":"Bruno Fernandes","team":"Manchester United","short":"MUN","goals":3},{"name":"Brian Brobbey","team":"Sunderland","short":"SUN","goals":3},{"name":"Dominic Calvert-Lewin","team":"Leeds United","short":"LEE","goals":3},{"name":"Pascal Groß","team":"Brighton & Hove Albion","short":"BHA","goals":3},{"name":"Pedro Neto","team":"Chelsea","short":"CHE","goals":3}],"news":[{"tag":"Table","date":"2026-10-18","title":"Manchester City lead the way with 21 points after 7 games","body":"Manchester City sit top of the 2026/27 table on 21 points (W7 D0 L0, 19:7). Arsenal are second on 15."},{"tag":"Result","date":"2026-10-18","title":"Latest round: Liverpool 0-3 Manchester City among 10 games","body":"The biggest margin of the round was Liverpool 0-3 Manchester City. All 10 recent results are listed on the Fixtures page."},{"tag":"Golden Boot","date":"2026-10-18","title":"Erling Haaland leads the Golden Boot race with 8 goals","body":"Erling Haaland (Manchester City) is the division's top scorer so far with 8 goals. See the full top scorer table on the Lab page."},{"tag":"Stats","date":"2026-10-18","title":"Brighton & Hove Albion boast the best goal difference (+13)","body":"Best attack-to-defence ratio in the league right now: Brighton & Hove Albion at 18:5. At the other end, Tottenham Hotspur prop up the table on 3 points."}],"teams":{"MCI":{"color":"#6cabdd","color2":"#1c2c5b"},"ARS":{"color":"#ef0107","color2":"#ffffff"},"BHA":{"color":"#0057b8","color2":"#ffffff"},"CHE":{"color":"#034694","color2":"#ffffff"},"LIV":{"color":"#c8102e","color2":"#ffffff"},"BRE":{"color":"#e30613","color2":"#ffffff"},"EVE":{"color":"#003399","color2":"#ffffff"},"LEE":{"color":"#ffcd00","color2":"#1d428a"},"HUL":{"color":"#ffb81c","color2":"#0b0b0b"},"IPS":{"color":"#0033a0","color2":"#ffffff"},"NEW":{"color":"#241f20","color2":"#ffffff"},"AVL":{"color":"#95bfe5","color2":"#670e36"},"CRY":{"color":"#1b458f","color2":"#c4122e"},"MUN":{"color":"#da291c","color2":"#fbe122"},"COV":{"color":"#78d0f0","color2":"#012169"},"FUL":{"color":"#141414","color2":"#ffffff"},"NFO":{"color":"#dd0000","color2":"#ffffff"},"SUN":{"color":"#eb172b","color2":"#ffffff"},"BOU":{"color":"#da291c","color2":"#0b0b0b"},"TOT":{"color":"#132257","color2":"#ffffff"}}};
-const SEASON=DATA.season;const DATA_AS_OF=DATA.asOf;const STANDINGS=DATA.standings;const RESULTS_MD6=DATA.results;const FIXTURES_MD7=DATA.upcoming;const NEWS=DATA.news;const TOP_SCORERS=DATA.scorers;const TEAMS=DATA.teams;
+/* ============================================================
+   EPL HUB · Live data — auto-generated by scripts/refresh.py
+   Source: Premier League public API (footballapi.pulselive.com)
+   Generated: 2026-10-18 00:09 UTC
+   ============================================================ */
+
+const DATA = {
+ "season": "2026/27",
+ "asOf": "October 18, 2026",
+ "standings": [
+  {
+   "rank": 1,
+   "team": "Manchester City",
+   "short": "MCI",
+   "played": 7,
+   "win": 7,
+   "draw": 0,
+   "loss": 0,
+   "gf": 19,
+   "ga": 7,
+   "gd": 12,
+   "pts": 21,
+   "homeW": 4,
+   "homeD": 0,
+   "homeL": 0,
+   "awayW": 3,
+   "awayD": 0,
+   "awayL": 0,
+   "stadium": "Etihad Stadium",
+   "city": "Manchester",
+   "form": "WWWWWW"
+  },
+  {
+   "rank": 2,
+   "team": "Arsenal",
+   "short": "ARS",
+   "played": 6,
+   "win": 5,
+   "draw": 0,
+   "loss": 1,
+   "gf": 10,
+   "ga": 5,
+   "gd": 5,
+   "pts": 15,
+   "homeW": 3,
+   "homeD": 0,
+   "homeL": 0,
+   "awayW": 2,
+   "awayD": 0,
+   "awayL": 1,
+   "stadium": "Emirates Stadium",
+   "city": "London",
+   "form": "WWWWLW"
+  },
+  {
+   "rank": 3,
+   "team": "Brighton & Hove Albion",
+   "short": "BHA",
+   "played": 6,
+   "win": 4,
+   "draw": 1,
+   "loss": 1,
+   "gf": 18,
+   "ga": 5,
+   "gd": 13,
+   "pts": 13,
+   "homeW": 2,
+   "homeD": 1,
+   "homeL": 0,
+   "awayW": 2,
+   "awayD": 0,
+   "awayL": 1,
+   "stadium": "American Express Stadium",
+   "city": "Falmer",
+   "form": "WLDWWW"
+  },
+  {
+   "rank": 4,
+   "team": "Chelsea",
+   "short": "CHE",
+   "played": 7,
+   "win": 4,
+   "draw": 1,
+   "loss": 2,
+   "gf": 17,
+   "ga": 13,
+   "gd": 4,
+   "pts": 13,
+   "homeW": 2,
+   "homeD": 1,
+   "homeL": 0,
+   "awayW": 2,
+   "awayD": 0,
+   "awayL": 2,
+   "stadium": "Stamford Bridge",
+   "city": "London",
+   "form": "WLDLWW"
+  },
+  {
+   "rank": 5,
+   "team": "Liverpool",
+   "short": "LIV",
+   "played": 7,
+   "win": 3,
+   "draw": 3,
+   "loss": 1,
+   "gf": 9,
+   "ga": 8,
+   "gd": 1,
+   "pts": 12,
+   "homeW": 0,
+   "homeD": 2,
+   "homeL": 1,
+   "awayW": 3,
+   "awayD": 1,
+   "awayL": 0,
+   "stadium": "Anfield",
+   "city": "Liverpool",
+   "form": "DWDWLW"
+  },
+  {
+   "rank": 6,
+   "team": "Brentford",
+   "short": "BRE",
+   "played": 7,
+   "win": 2,
+   "draw": 4,
+   "loss": 1,
+   "gf": 13,
+   "ga": 8,
+   "gd": 5,
+   "pts": 10,
+   "homeW": 2,
+   "homeD": 1,
+   "homeL": 1,
+   "awayW": 0,
+   "awayD": 3,
+   "awayL": 0,
+   "stadium": "Gtech Community Stadium",
+   "city": "Brentford",
+   "form": "DDDWDL"
+  },
+  {
+   "rank": 7,
+   "team": "Everton",
+   "short": "EVE",
+   "played": 7,
+   "win": 2,
+   "draw": 4,
+   "loss": 1,
+   "gf": 8,
+   "ga": 7,
+   "gd": 1,
+   "pts": 10,
+   "homeW": 2,
+   "homeD": 1,
+   "homeL": 1,
+   "awayW": 0,
+   "awayD": 3,
+   "awayL": 0,
+   "stadium": "Hill Dickinson Stadium",
+   "city": "Liverpool",
+   "form": "DDDWDL"
+  },
+  {
+   "rank": 8,
+   "team": "Leeds United",
+   "short": "LEE",
+   "played": 6,
+   "win": 2,
+   "draw": 3,
+   "loss": 1,
+   "gf": 8,
+   "ga": 5,
+   "gd": 3,
+   "pts": 9,
+   "homeW": 1,
+   "homeD": 2,
+   "homeL": 0,
+   "awayW": 1,
+   "awayD": 1,
+   "awayL": 1,
+   "stadium": "Elland Road",
+   "city": "Leeds",
+   "form": "WDDWDL"
+  },
+  {
+   "rank": 9,
+   "team": "Hull City",
+   "short": "HUL",
+   "played": 7,
+   "win": 2,
+   "draw": 3,
+   "loss": 2,
+   "gf": 8,
+   "ga": 7,
+   "gd": 1,
+   "pts": 9,
+   "homeW": 1,
+   "homeD": 2,
+   "homeL": 0,
+   "awayW": 1,
+   "awayD": 1,
+   "awayL": 2,
+   "stadium": "The MKM Stadium",
+   "city": "Hull",
+   "form": "WDDLDL"
+  },
+  {
+   "rank": 10,
+   "team": "Ipswich Town",
+   "short": "IPS",
+   "played": 7,
+   "win": 3,
+   "draw": 0,
+   "loss": 4,
+   "gf": 11,
+   "ga": 15,
+   "gd": -4,
+   "pts": 9,
+   "homeW": 2,
+   "homeD": 0,
+   "homeL": 1,
+   "awayW": 1,
+   "awayD": 0,
+   "awayL": 3,
+   "stadium": "Portman Road",
+   "city": "Ipswich",
+   "form": "LLWLWL"
+  },
+  {
+   "rank": 11,
+   "team": "Newcastle United",
+   "short": "NEW",
+   "played": 7,
+   "win": 2,
+   "draw": 2,
+   "loss": 3,
+   "gf": 10,
+   "ga": 14,
+   "gd": -4,
+   "pts": 8,
+   "homeW": 1,
+   "homeD": 2,
+   "homeL": 1,
+   "awayW": 1,
+   "awayD": 0,
+   "awayL": 2,
+   "stadium": "St. James' Park",
+   "city": "Newcastle",
+   "form": "WDLWLL"
+  },
+  {
+   "rank": 12,
+   "team": "Aston Villa",
+   "short": "AVL",
+   "played": 7,
+   "win": 2,
+   "draw": 2,
+   "loss": 3,
+   "gf": 7,
+   "ga": 11,
+   "gd": -4,
+   "pts": 8,
+   "homeW": 0,
+   "homeD": 1,
+   "homeL": 2,
+   "awayW": 2,
+   "awayD": 1,
+   "awayL": 1,
+   "stadium": "Villa Park",
+   "city": "Birmingham",
+   "form": "LDLWDW"
+  },
+  {
+   "rank": 13,
+   "team": "Crystal Palace",
+   "short": "CRY",
+   "played": 6,
+   "win": 2,
+   "draw": 1,
+   "loss": 3,
+   "gf": 9,
+   "ga": 12,
+   "gd": -3,
+   "pts": 7,
+   "homeW": 1,
+   "homeD": 0,
+   "homeL": 2,
+   "awayW": 1,
+   "awayD": 1,
+   "awayL": 1,
+   "stadium": "Selhurst Park",
+   "city": "London",
+   "form": "LLWLDW"
+  },
+  {
+   "rank": 14,
+   "team": "Manchester United",
+   "short": "MUN",
+   "played": 6,
+   "win": 1,
+   "draw": 3,
+   "loss": 2,
+   "gf": 9,
+   "ga": 9,
+   "gd": 0,
+   "pts": 6,
+   "homeW": 1,
+   "homeD": 1,
+   "homeL": 1,
+   "awayW": 0,
+   "awayD": 2,
+   "awayL": 1,
+   "stadium": "Old Trafford",
+   "city": "Manchester",
+   "form": "LWDLDD"
+  },
+  {
+   "rank": 15,
+   "team": "Coventry City",
+   "short": "COV",
+   "played": 6,
+   "win": 2,
+   "draw": 0,
+   "loss": 4,
+   "gf": 5,
+   "ga": 11,
+   "gd": -6,
+   "pts": 6,
+   "homeW": 1,
+   "homeD": 0,
+   "homeL": 2,
+   "awayW": 1,
+   "awayD": 0,
+   "awayL": 2,
+   "stadium": "Coventry Building Society Arena",
+   "city": "Coventry",
+   "form": "LLLLWW"
+  },
+  {
+   "rank": 16,
+   "team": "Fulham",
+   "short": "FUL",
+   "played": 7,
+   "win": 1,
+   "draw": 2,
+   "loss": 4,
+   "gf": 7,
+   "ga": 10,
+   "gd": -3,
+   "pts": 5,
+   "homeW": 1,
+   "homeD": 1,
+   "homeL": 2,
+   "awayW": 0,
+   "awayD": 1,
+   "awayL": 2,
+   "stadium": "Craven Cottage",
+   "city": "London",
+   "form": "LLDDLW"
+  },
+  {
+   "rank": 17,
+   "team": "Nottingham Forest",
+   "short": "NFO",
+   "played": 6,
+   "win": 1,
+   "draw": 2,
+   "loss": 3,
+   "gf": 5,
+   "ga": 8,
+   "gd": -3,
+   "pts": 5,
+   "homeW": 0,
+   "homeD": 1,
+   "homeL": 2,
+   "awayW": 1,
+   "awayD": 1,
+   "awayL": 1,
+   "stadium": "The City Ground",
+   "city": "Nottingham",
+   "form": "LDDWLL"
+  },
+  {
+   "rank": 18,
+   "team": "Sunderland",
+   "short": "SUN",
+   "played": 6,
+   "win": 1,
+   "draw": 1,
+   "loss": 4,
+   "gf": 6,
+   "ga": 12,
+   "gd": -6,
+   "pts": 4,
+   "homeW": 1,
+   "homeD": 0,
+   "homeL": 2,
+   "awayW": 0,
+   "awayD": 1,
+   "awayL": 2,
+   "stadium": "Stadium of Light",
+   "city": "Sunderland",
+   "form": "LWDLLL"
+  },
+  {
+   "rank": 19,
+   "team": "Bournemouth",
+   "short": "BOU",
+   "played": 6,
+   "win": 0,
+   "draw": 3,
+   "loss": 3,
+   "gf": 7,
+   "ga": 13,
+   "gd": -6,
+   "pts": 3,
+   "homeW": 0,
+   "homeD": 2,
+   "homeL": 1,
+   "awayW": 0,
+   "awayD": 1,
+   "awayL": 2,
+   "stadium": "Vitality Stadium",
+   "city": "Bournemouth",
+   "form": "LDDDLL"
+  },
+  {
+   "rank": 20,
+   "team": "Tottenham Hotspur",
+   "short": "TOT",
+   "played": 6,
+   "win": 0,
+   "draw": 3,
+   "loss": 3,
+   "gf": 3,
+   "ga": 9,
+   "gd": -6,
+   "pts": 3,
+   "homeW": 0,
+   "homeD": 1,
+   "homeL": 2,
+   "awayW": 0,
+   "awayD": 2,
+   "awayL": 1,
+   "stadium": "Tottenham Hotspur Stadium",
+   "city": "London",
+   "form": "LLDDLD"
+  }
+ ],
+ "results": [
+  {
+   "gw": 6,
+   "date": "Sat 10 Oct 2026, 17:30 BST",
+   "kickoff": 1791649800000,
+   "home": "Manchester United",
+   "away": "Tottenham Hotspur",
+   "hg": 1,
+   "ag": 1
+  },
+  {
+   "gw": 6,
+   "date": "Sun 11 Oct 2026, 14:00 BST",
+   "kickoff": 1791723600000,
+   "home": "Crystal Palace",
+   "away": "Nottingham Forest",
+   "hg": 3,
+   "ag": 1
+  },
+  {
+   "gw": 6,
+   "date": "Sun 11 Oct 2026, 14:00 BST",
+   "kickoff": 1791723600000,
+   "home": "Hull City",
+   "away": "Everton",
+   "hg": 2,
+   "ag": 2
+  },
+  {
+   "gw": 6,
+   "date": "Sun 11 Oct 2026, 16:30 BST",
+   "kickoff": 1791732600000,
+   "home": "Liverpool",
+   "away": "Manchester City",
+   "hg": 0,
+   "ag": 3
+  },
+  {
+   "gw": 6,
+   "date": "Mon 12 Oct 2026, 20:00 BST",
+   "kickoff": 1791831600000,
+   "home": "Coventry City",
+   "away": "Newcastle United",
+   "hg": 4,
+   "ag": 1
+  },
+  {
+   "gw": 7,
+   "date": "Sat 17 Oct 2026, 12:30 BST",
+   "kickoff": 1792236600000,
+   "home": "Everton",
+   "away": "Chelsea",
+   "hg": 0,
+   "ag": 2
+  },
+  {
+   "gw": 7,
+   "date": "Sat 17 Oct 2026, 15:00 BST",
+   "kickoff": 1792245600000,
+   "home": "Brentford",
+   "away": "Liverpool",
+   "hg": 1,
+   "ag": 2
+  },
+  {
+   "gw": 7,
+   "date": "Sat 17 Oct 2026, 15:00 BST",
+   "kickoff": 1792245600000,
+   "home": "Fulham",
+   "away": "Hull City",
+   "hg": 1,
+   "ag": 0
+  },
+  {
+   "gw": 7,
+   "date": "Sat 17 Oct 2026, 15:00 BST",
+   "kickoff": 1792245600000,
+   "home": "Manchester City",
+   "away": "Ipswich Town",
+   "hg": 3,
+   "ag": 2
+  },
+  {
+   "gw": 7,
+   "date": "Sat 17 Oct 2026, 17:30 BST",
+   "kickoff": 1792254600000,
+   "home": "Newcastle United",
+   "away": "Aston Villa",
+   "hg": 0,
+   "ag": 1
+  }
+ ],
+ "upcoming": [
+  {
+   "gw": 7,
+   "date": "Sun 18 Oct 2026, 14:00 BST",
+   "kickoff": 1792328400000,
+   "home": "Bournemouth",
+   "away": "Sunderland"
+  },
+  {
+   "gw": 7,
+   "date": "Sun 18 Oct 2026, 14:00 BST",
+   "kickoff": 1792328400000,
+   "home": "Brighton & Hove Albion",
+   "away": "Crystal Palace"
+  },
+  {
+   "gw": 7,
+   "date": "Sun 18 Oct 2026, 14:00 BST",
+   "kickoff": 1792328400000,
+   "home": "Leeds United",
+   "away": "Manchester United"
+  },
+  {
+   "gw": 7,
+   "date": "Sun 18 Oct 2026, 16:30 BST",
+   "kickoff": 1792337400000,
+   "home": "Nottingham Forest",
+   "away": "Arsenal"
+  },
+  {
+   "gw": 7,
+   "date": "Mon 19 Oct 2026, 20:00 BST",
+   "kickoff": 1792436400000,
+   "home": "Tottenham Hotspur",
+   "away": "Coventry City"
+  },
+  {
+   "gw": 8,
+   "date": "Fri 23 Oct 2026, 20:00 BST",
+   "kickoff": 1792782000000,
+   "home": "Ipswich Town",
+   "away": "Nottingham Forest"
+  },
+  {
+   "gw": 8,
+   "date": "Sat 24 Oct 2026, 12:30 BST",
+   "kickoff": 1792841400000,
+   "home": "Aston Villa",
+   "away": "Manchester City"
+  },
+  {
+   "gw": 8,
+   "date": "Sat 24 Oct 2026, 15:00 BST",
+   "kickoff": 1792850400000,
+   "home": "Arsenal",
+   "away": "Everton"
+  },
+  {
+   "gw": 8,
+   "date": "Sat 24 Oct 2026, 15:00 BST",
+   "kickoff": 1792850400000,
+   "home": "Coventry City",
+   "away": "Fulham"
+  },
+  {
+   "gw": 8,
+   "date": "Sat 24 Oct 2026, 17:30 BST",
+   "kickoff": 1792859400000,
+   "home": "Chelsea",
+   "away": "Tottenham Hotspur"
+  },
+  {
+   "gw": 8,
+   "date": "Sun 25 Oct 2026, 14:00 GMT",
+   "kickoff": 1792936800000,
+   "home": "Crystal Palace",
+   "away": "Newcastle United"
+  },
+  {
+   "gw": 8,
+   "date": "Sun 25 Oct 2026, 14:00 GMT",
+   "kickoff": 1792936800000,
+   "home": "Hull City",
+   "away": "Brentford"
+  },
+  {
+   "gw": 8,
+   "date": "Sun 25 Oct 2026, 14:00 GMT",
+   "kickoff": 1792936800000,
+   "home": "Liverpool",
+   "away": "Brighton & Hove Albion"
+  },
+  {
+   "gw": 8,
+   "date": "Sun 25 Oct 2026, 14:00 GMT",
+   "kickoff": 1792936800000,
+   "home": "Manchester United",
+   "away": "Bournemouth"
+  },
+  {
+   "gw": 8,
+   "date": "Sun 25 Oct 2026, 16:30 GMT",
+   "kickoff": 1792945800000,
+   "home": "Sunderland",
+   "away": "Leeds United"
+  },
+  {
+   "gw": 9,
+   "date": "Sat 31 Oct 2026, 12:30 GMT",
+   "kickoff": 1793449800000,
+   "home": "Chelsea",
+   "away": "Manchester United"
+  },
+  {
+   "gw": 9,
+   "date": "Sat 31 Oct 2026, 15:00 GMT",
+   "kickoff": 1793458800000,
+   "home": "Bournemouth",
+   "away": "Leeds United"
+  },
+  {
+   "gw": 9,
+   "date": "Sat 31 Oct 2026, 15:00 GMT",
+   "kickoff": 1793458800000,
+   "home": "Brentford",
+   "away": "Nottingham Forest"
+  },
+  {
+   "gw": 9,
+   "date": "Sat 31 Oct 2026, 15:00 GMT",
+   "kickoff": 1793458800000,
+   "home": "Coventry City",
+   "away": "Sunderland"
+  },
+  {
+   "gw": 9,
+   "date": "Sat 31 Oct 2026, 15:00 GMT",
+   "kickoff": 1793458800000,
+   "home": "Hull City",
+   "away": "Ipswich Town"
+  }
+ ],
+ "scorers": [
+  {
+   "name": "Erling Haaland",
+   "team": "Manchester City",
+   "short": "MCI",
+   "goals": 8
+  },
+  {
+   "name": "Alexander Isak",
+   "team": "Liverpool",
+   "short": "LIV",
+   "goals": 5
+  },
+  {
+   "name": "João Pedro",
+   "team": "Chelsea",
+   "short": "CHE",
+   "goals": 5
+  },
+  {
+   "name": "Rayan Cherki",
+   "team": "Manchester City",
+   "short": "MCI",
+   "goals": 4
+  },
+  {
+   "name": "Morgan Rogers",
+   "team": "Chelsea",
+   "short": "CHE",
+   "goals": 4
+  },
+  {
+   "name": "Thierno Barry",
+   "team": "Everton",
+   "short": "EVE",
+   "goals": 3
+  },
+  {
+   "name": "Mohamed Belloumi",
+   "team": "Hull City",
+   "short": "HUL",
+   "goals": 3
+  },
+  {
+   "name": "Bruno Fernandes",
+   "team": "Manchester United",
+   "short": "MUN",
+   "goals": 3
+  },
+  {
+   "name": "Brian Brobbey",
+   "team": "Sunderland",
+   "short": "SUN",
+   "goals": 3
+  },
+  {
+   "name": "Dominic Calvert-Lewin",
+   "team": "Leeds United",
+   "short": "LEE",
+   "goals": 3
+  },
+  {
+   "name": "Pascal Groß",
+   "team": "Brighton & Hove Albion",
+   "short": "BHA",
+   "goals": 3
+  },
+  {
+   "name": "Pedro Neto",
+   "team": "Chelsea",
+   "short": "CHE",
+   "goals": 3
+  }
+ ],
+ "news": [
+  {
+   "tag": "Table",
+   "date": "2026-10-18",
+   "title": "Manchester City lead the way with 21 points after 7 games",
+   "body": "Manchester City sit top on 21 points (W7 D0 L0, 19:7). Arsenal are second on 15."
+  },
+  {
+   "tag": "Result",
+   "date": "2026-10-18",
+   "title": "Latest round: Liverpool 0-3 Manchester City among 10 games",
+   "body": "The biggest margin of the round was Liverpool 0-3 Manchester City. All recent results are on the Fixtures page."
+  },
+  {
+   "tag": "Golden Boot",
+   "date": "2026-10-18",
+   "title": "Erling Haaland leads the Golden Boot race with 8 goals",
+   "body": "Erling Haaland (Manchester City) is the division's top scorer so far with 8 goals. See the full table on the Lab page."
+  },
+  {
+   "tag": "Stats",
+   "date": "2026-10-18",
+   "title": "Brighton & Hove Albion boast the best goal difference (+13)",
+   "body": "Best attack-to-defence ratio: Brighton & Hove Albion at 18:5. At the other end, Tottenham Hotspur prop up the table on 3 points."
+  }
+ ],
+ "teams": {
+  "MCI": {
+   "color": "#6cabdd",
+   "color2": "#1c2c5b"
+  },
+  "ARS": {
+   "color": "#ef0107",
+   "color2": "#ffffff"
+  },
+  "BHA": {
+   "color": "#0057b8",
+   "color2": "#ffffff"
+  },
+  "CHE": {
+   "color": "#034694",
+   "color2": "#ffffff"
+  },
+  "LIV": {
+   "color": "#c8102e",
+   "color2": "#ffffff"
+  },
+  "BRE": {
+   "color": "#e30613",
+   "color2": "#ffffff"
+  },
+  "EVE": {
+   "color": "#003399",
+   "color2": "#ffffff"
+  },
+  "LEE": {
+   "color": "#ffcd00",
+   "color2": "#1d428a"
+  },
+  "HUL": {
+   "color": "#ffb81c",
+   "color2": "#0b0b0b"
+  },
+  "IPS": {
+   "color": "#0033a0",
+   "color2": "#ffffff"
+  },
+  "NEW": {
+   "color": "#241f20",
+   "color2": "#ffffff"
+  },
+  "AVL": {
+   "color": "#95bfe5",
+   "color2": "#670e36"
+  },
+  "CRY": {
+   "color": "#1b458f",
+   "color2": "#c4122e"
+  },
+  "MUN": {
+   "color": "#da291c",
+   "color2": "#fbe122"
+  },
+  "COV": {
+   "color": "#78d0f0",
+   "color2": "#012169"
+  },
+  "FUL": {
+   "color": "#141414",
+   "color2": "#ffffff"
+  },
+  "NFO": {
+   "color": "#dd0000",
+   "color2": "#ffffff"
+  },
+  "SUN": {
+   "color": "#eb172b",
+   "color2": "#ffffff"
+  },
+  "BOU": {
+   "color": "#da291c",
+   "color2": "#0b0b0b"
+  },
+  "TOT": {
+   "color": "#132257",
+   "color2": "#ffffff"
+  }
+ }
+};
+
+const SEASON = DATA.season;
+const DATA_AS_OF = DATA.asOf;
+const STANDINGS = DATA.standings;
+const RESULTS_MD6 = DATA.results;
+const FIXTURES_MD7 = DATA.upcoming;
+const NEWS = DATA.news;
+const TOP_SCORERS = DATA.scorers;
+const TEAMS = DATA.teams;
